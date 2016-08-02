@@ -6,7 +6,7 @@
   <meta name="author" content="egoing">
   <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body id="target" class="white">
   <h1><a href="index.html">전국생코</a></h1>
   <ul>
     <li><a href="1.html">html</a></li>
@@ -15,6 +15,9 @@
   </ul>
   <div id="article">
     <h2>html</h2>
+    <input type="button" value="delete" onclick="document.getElementById('article').remove();">
+    <input type="button" value="white" style="color:red;" onclick="document.getElementById('target').className='white';">
+    <input type="button" value="black" onclick="document.getElementById('target').className='black';">
     HTML 이란 Hypertext markup language의 약자로서...HTML 이란 Hypertext markup language의 약자로서...HTML 이란 Hypertext markup language의 약자로서...HTML 이란 Hypertext markup language의 약자로서...HTML 이란 Hypertext markup language의 약자로서...HTML 이란 Hypertext markup language의 약자로서...HTML 이란 Hypertext markup
   </div>
 
